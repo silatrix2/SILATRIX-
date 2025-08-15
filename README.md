@@ -4,16 +4,16 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=8A2BE2&center=true&width=1150&height=200&lines=PLEASE-FORK-STAR-BOT-REPO" alt="Typing SVG" /></a>
   </div>
-<a><img src='https://ik.imagekit.io/mrshaban/Picsart_25-02-01_22-47-44-239.jpg'/></a>
+<a><img src=tp'https://files.fm/u/ttpbcjcrtt?ak=8a070'
 
 <p align="center">
-  <a href="https://github.com/MRSHABAN42"><img title="Developer" src="https://img.shields.io/badge/Author-SILATRIX%20MD-FF00FF.svg?style=big-square&logo=github" /></a>
+  <a href="https://github.com/SILATRIX"><img title="Developer" src="https://img.shields.io/badge/Author-SILATRIX%20MD-FF00FF.svg?style=big-square&logo=github" /></a>
 </p>
 
 <div align="center">
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+SHABAN+MD+BETTER+OPTION;🔥+THE+MOST+POWERFUL+WHATSAPP+BOT;💻+DEVELOPER+BY+SILATRIX2;🚀+SILATRIX-MD+SOLUTIONS;🌈+FAST+⚡+SECURE+🔒+RELIABLE+✅" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+SILATRIX+MD+BETTER+OPTION;🔥+THE+MOST+POWERFUL+WHATSAPP+BOT;💻+DEVELOPER+BY+SILATRIX2;🚀+SILATRIX-MD+SOLUTIONS;🌈+FAST+⚡+SECURE+🔒+RELIABLE+✅" alt="Typing Animation">
 </h1>
   
 [![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-9ACD32?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O)
@@ -23,13 +23,13 @@
 
 
 <p align="center">
-<a href="https://github.com/MRSHABAN45/SHABAN-MD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
+<a href="https://github.com/SILATRIX2/SILATRIX-MD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
   <img src="https://komarev.com/ghpvc/?username=SHABAN-MD&label=VIEWS&style=square&color=blue" />
 </p>
 </p> 
 
 <p align="center">
-  <a href="https://github.com/MRSHABAN40/SHABAN-MD"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v5-cyan.svg?style=for-the-badge&logo=aqua" /></a>
+  <a href="https://github.com/SILATRIX2/SILATRIX-MD"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v5-cyan.svg?style=for-the-badge&logo=aqua" /></a>
 </p>
 
 
@@ -47,7 +47,7 @@ href="https://github.com/MRSHABAN45/SHABAN-MD/graphs/commit-activity"><img heigh
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=monospace-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+⭐+𝗥𝗘𝗣𝗢)](https://git.io/typing-svg)
  <p align="lift">
- <a href="https://github.com/MRSHABAN45/SHABAN-MD/fork"><img title="SHABAN-MD" src="https://img.shields.io/badge/FORK-SHABAN MD-h?color=008000&style=for-the-badge&logo=github"></a>
+ <a href="https://github.com/MRSHABAN45/SHABAN-MD/fork"><img title="SILATRIX-MD" src="https://img.shields.io/badge/FORK-SILATRIX MD-h?color=008000&style=for-the-badge&logo=github"></a>
 
  -------------
   
@@ -84,7 +84,7 @@ href="https://github.com/MRSHABAN45/SHABAN-MD/graphs/commit-activity"><img heigh
 
 -------------
 
-**_✠ FREE DEPLOYMENT OF SHABAN MD GITHUB WORKFLOW CODE ✠_**
+**_✠ FREE DEPLOYMENT OF SILATRIX MD GITHUB WORKFLOW CODE ✠_**
 
 ```
 name: Node.js CI
@@ -138,8 +138,8 @@ jobs:
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
-  <a href="https://github.com/MRSHABAN45">
-    <img src="https://github-readme-stats.vercel.app/api?username=MRSHABAN45&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
+  <a href="https://github.com/SILATRIX2">
+    <img src="https://github-readme-stats.vercel.app/api?username=SILATRIX2&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
   </a>
 </div>
 <!-- Glowing Header -->
@@ -147,7 +147,7 @@ jobs:
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
 
-## 🤖 _SHABAN-MD STATUS_
+## 🤖 _SILATRIX-MD STATUS_
 
 ```diff
 + Project Status: Active
@@ -160,8 +160,8 @@ jobs:
 
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=6000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=+SHABAN+MD+QUALITY+EDITION+BY+MR+SHABAN42;⚡+THE+FUTURE+OF+WHATSAPP+BOT+IS+HERE" alt="Footer Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=6000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=+SILATRIX+MD+QUALITY+EDITION+BY+SILATRIX2;⚡+THE+FUTURE+OF+WHATSAPP+BOT+IS+HERE" alt="Footer Animation">
 </h3>
 
 
-<h1> ℕ𝕆 𝕃𝕆𝕍𝔼 💔 ℕ𝕆 𝕊𝕋ℝ𝔼𝕊𝕊 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45"> </h1>
+<h1> ℕ𝕆 𝕃𝕆𝕍𝔼 💔 ℕ𝕆 𝕊𝕋ℝ𝔼𝕊𝕊 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="2"> </h1>
