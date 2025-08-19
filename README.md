@@ -4,7 +4,7 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=8A2BE2&center=true&width=1150&height=200&lines=PLEASE-FORK-STAR-BOT-REPO" alt="Typing SVG" /></a>
   </div>
-<a><img src=tp'https://files.fm/u/ttpbcjcrtt?ak=8a070'/></a>
+<a><img src=tp'https://files.fm/u/ttpbcjcrtt?ak=8a070.jpg'/></a>
 
 <p align="center">
   <a href="https://github.com/SILATRIX"><img title="Developer" src="https://img.shields.io/badge/Author-SILATRIX%20MD-FF00FF.svg?style=big-square&logo=github" /></a>
