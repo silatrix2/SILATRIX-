@@ -139,7 +139,7 @@ jobs:
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
   <a href="https://github.com/MRSHABAN45">
-    <img src="https://github-readme-stats.vercel.app/api?username=MRSHABAN45&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=SILATRIX2&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
   </a>
 </div>
 <!-- Glowing Header -->
@@ -164,4 +164,4 @@ jobs:
 </h3>
 
 
-<h1> ℕ𝕆 𝕃𝕆𝕍𝔼 💔 ℕ𝕆 𝕊𝕋ℝ𝔼𝕊𝕊 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45"> </h1>
+<h1> ℕ𝕆 𝕃𝕆𝕍𝔼 💔 ℕ𝕆 𝕊𝕋ℝ𝔼𝕊𝕊 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="2"> </h1>
