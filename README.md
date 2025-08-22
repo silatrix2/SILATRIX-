@@ -16,7 +16,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+SILATRIX+MD+BETTER+OPTION;🔥+THE+MOST+POWERFUL+WHATSAPP+BOT;💻+DEVELOPER+BY+MR+SILATRIX2;🚀+SILATRIX-MD+SOLUTIONS;🌈+FAST+⚡+SECURE+🔒+RELIABLE+✅" alt="Typing Animation">
 </h1>
   
-[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-9ACD32?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029VazjYjoDDmFZTZ9Ech3O)
+[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-9ACD32?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029Vb6DeKwCHDygxt0RXh0L)
 </div>
 
 ---------
@@ -51,13 +51,13 @@ href="https://github.com/SILATRIX2/SILATRIX-/graphs/commit-activity"><img height
 
  -------------
   
-<a href='https://pair-f4wt.onrender.com' target="_blank">
+<a href='https://beezila.onrender.com' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE-FF0000?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
 
 -------------
 
-<a href='https://shaban-md-pair2.zone.id/' target="_blank">
+<a href='https://beezila.onrender.com' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
 
@@ -139,7 +139,7 @@ jobs:
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
   <a href="https://github.com/MRSHABAN45">
-    <img src="https://github-readme-stats.vercel.app/api?username=SILATRIX2&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=MRSHABAN45&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
   </a>
 </div>
 <!-- Glowing Header -->
@@ -164,4 +164,4 @@ jobs:
 </h3>
 
 
-<h1> ℕ𝕆 𝕃𝕆𝕍𝔼 💔 ℕ𝕆 𝕊𝕋ℝ𝔼𝕊𝕊 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="2"> </h1>
+<h1> ℕ𝕆 𝕃𝕆𝕍𝔼 💔 ℕ𝕆 𝕊𝕋ℝ𝔼𝕊𝕊 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45"> </h1>
