@@ -1,3 +1,21 @@
+// Check Node.js version
+const requiredVersion = '20.0.0';
+const currentVersion = process.version;
+
+function parseVersion(version) {
+  return version.replace('v', '').split('.').map(Number);
+}
+
+const [requiredMajor] = parseVersion(requiredVersion);
+const [currentMajor] = parseVersion(currentVersion);
+
+if (currentMajor < requiredMajor) {
+  console.error(`❌ Node.js version ${requiredVersion} or higher is required. Current version: ${currentVersion}`);
+  console.error('🔧 Please upgrade Node.js or check your environment configuration');
+  process.exit(1);
+}
+
+console.log(`✅ Node.js version ${currentVersion} is compatible`);
 // --- Bootstrap: ensure npm installs and .npmrc for legacy-peer-deps ---
 const { execSync } = require('child_process');
 const fs = require('fs');
