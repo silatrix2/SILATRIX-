@@ -83,7 +83,39 @@ href="https://github.com/SILATRIX2/SILATRIX-/graphs/commit-activity"><img height
 </div>
 
 -------------
+## �️ Hatua za Kuweka Boti
 
+### Hatua ya 1: Weka Mfumo Wako
+
+Pakua au nakili mfumo wote wa SILATRIX MD kwenye kompyuta yako:
+
+```bash
+git clone https://github.com/silatrix2/silatrix-.git
+cd silatrix-
+npm install
+
+
+Hatua ya 2: Badilisha Mipangilio
+
+Badilisha faili ya settings.js na weka namba yako:
+
+```javascript
+ownerNumber: '255789661031', // Weka namba yako hapa
+```
+
+Hatua ya 3: Tengeneza Session
+
+Anzisha boti kwa kutumia:
+
+```bash
+node index.js
+```
+
+Piga msimbo wa QR kwenye WhatsApp yako kwa kutumia:
+
+· Mipangilio > Vifaa Vilivyounganishwa > Unganisha Kifaa
+
+---
 **_✠ FREE DEPLOYMENT OF SILATRIX MD GITHUB WORKFLOW CODE ✠_**
 
 ```
@@ -138,8 +170,8 @@ jobs:
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
-  <a href="https://github.com/MRSHABAN45">
-    <img src="https://github-readme-stats.vercel.app/api?username=MRSHABAN45&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
+  <a href="https://github.com/SILATRIX2">
+    <img src="https://github-readme-stats.vercel.app/api?username=SILATRIX2&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
   </a>
 </div>
 <!-- Glowing Header -->
