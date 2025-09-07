@@ -1,18 +1,101 @@
+// Auto-fixed index.js for Katabump: installs missing deps and uses legacy-peer-deps automatically
+// Paste this whole file over your current index.js
+
+// --- Bootstrap: ensure npm installs and .npmrc for legacy-peer-deps ---
+const { execSync } = require('child_process');
+const fs = require('fs');
+const path = require('path');
+
+function log(...a){ console.log('[setup]', ...a) }
+
+// Ensure .npmrc contains legacy-peer-deps=true so Katabump's install respects it
+try {
+  const npmrcPath = path.join(process.cwd(), '.npmrc');
+  if (!fs.existsSync(npmrcPath)) {
+    log('.npmrc not found — creating with legacy-peer-deps=true');
+    fs.writeFileSync(npmrcPath, 'legacy-peer-deps=true\n', { encoding: 'utf8' });
+  } else {
+    const cur = fs.readFileSync(npmrcPath, 'utf8');
+    if (!/legacy-peer-deps\s*=\s*true/.test(cur)) {
+      log('Adding legacy-peer-deps=true to .npmrc');
+      fs.appendFileSync(npmrcPath, '\nlegacy-peer-deps=true\n', { encoding: 'utf8' });
+    }
+  }
+} catch (err) {
+  console.error('Failed to write .npmrc:', err);
+}
+
+// Helper: run npm install (legacy peer deps) if node_modules missing or if explicit package missing
+function runNpmInstall(args = []) {
+  try {
+    const cmd = ['npm', 'install', '--no-audit', '--no-fund', '--legacy-peer-deps'].concat(args).join(' ');
+    log('Running:', cmd);
+    execSync(cmd, { stdio: 'inherit', env: Object.assign({}, process.env) });
+    return true;
+  } catch (e) {
+    console.error('npm install failed:', e.message || e);
+    return false;
+  }
+}
+
+// If node_modules missing (fresh deploy), install once
+if (!fs.existsSync(path.join(process.cwd(), 'node_modules'))) {
+  log('node_modules not found — running npm install (legacy peer deps)...');
+  runNpmInstall();
+}
+
+// Utility: ensure a package can be required; if not, install it then try again.
+function ensurePackage(pkgName, installName = null) {
+  installName = installName || pkgName;
+  try {
+    return require(pkgName);
+  } catch (err) {
+    log(`${pkgName} not found — installing ${installName}...`);
+    const ok = runNpmInstall([installName]);
+    if (!ok) {
+      console.error(`Failed to install ${installName}`);
+      return null;
+    }
+    // try to clear require cache for the package path and require again
+    try {
+      // give Node a tiny grace: remove package from require cache if present
+      Object.keys(require.cache).forEach(k => {
+        if (k.includes(path.join('node_modules', pkgName))) delete require.cache[k];
+      });
+      return require(pkgName);
+    } catch (err2) {
+      console.error(`Still cannot require ${pkgName} after install:`, err2);
+      return null;
+    }
+  }
+}
+
+// --- End bootstrap ---
+
+// Now the original file content with some requires replaced by ensurePackage where needed
 require('./settings')
-const { Boom } = require('@hapi/boom')
-const fs = require('fs')
+
+// For Boom we ensure it's installed because your runtime complained about it
+const BoomPkg = ensurePackage('@hapi/boom') || {};
+const { Boom } = BoomPkg.Boom ? BoomPkg : { Boom: BoomPkg.Boom || BoomPkg };
+
+// Standard requires (most of these should exist in package.json)
 const chalk = require('chalk')
-const FileType = require('file-type')
-const path = require('path')
-const axios = require('axios')
+const FileType = ensurePackage('file-type') || require('file-type')
+const pathModule = require('path')
+const axios = ensurePackage('axios') || require('axios')
+
 const { handleMessages, handleGroupParticipantUpdate, handleStatus } = require('./main');
-const PhoneNumber = require('awesome-phonenumber')
+const PhoneNumber = ensurePackage('awesome-phonenumber') || require('awesome-phonenumber')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
-const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await, sleep, reSize } = require('./lib/myfunc')
-const { 
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await: awaitFn, sleep, reSize } = require('./lib/myfunc')
+
+// Baileys - try to require; if missing, install then require
+const baileysPkg = ensurePackage('@whiskeysockets/baileys') || require('@whiskeysockets/baileys')
+const {
     default: makeWASocket,
-    useMultiFileAuthState, 
-    DisconnectReason, 
+    useMultiFileAuthState,
+    DisconnectReason,
     fetchLatestBaileysVersion,
     generateForwardMessageContent,
     prepareWAMessageMedia,
@@ -24,11 +107,12 @@ const {
     jidNormalizedUser,
     makeCacheableSignalKeyStore,
     delay
-} = require("@whiskeysockets/baileys")
-const NodeCache = require("node-cache")
-const pino = require("pino")
+} = baileysPkg
+
+const NodeCache = ensurePackage("node-cache") || require("node-cache")
+const pino = ensurePackage("pino") || require("pino")
 const readline = require("readline")
-const { parsePhoneNumber } = require("libphonenumber-js")
+const { parsePhoneNumber } = ensurePackage("libphonenumber-js") || require("libphonenumber-js")
 const { PHONENUMBER_MCC } = require('@whiskeysockets/baileys/lib/Utils/generics')
 const { rmSync, existsSync } = require('fs')
 const { join } = require('path')
@@ -100,17 +184,7 @@ async function createFancyWelcomeMessage(userId) {
 
 👑 *Habarini, mpendwa mtumiaji!* 👑
 
-Umepokea mwaliko wa kutumia *SILATRIX MD*!
-
-Hapa kwenye jukwaa letu, utapata:
-✨ Huduma bora za WhatsApp
-✨ Vifaa vya usimamizi wa makundi
-✨ Ujuzi wa hali ya juu
-
-📜 *Maagizo Muhimu:*
-1. Kuwa na heshima kila wakati
-2. Tumia amri kwa busara
-3 Jiunge na vyombo vyetu kwa habari za sasa
+Umepokea mwaliko wa kutumia *SILATRIX MD*!...
 
 ⏳ *Muda wa Sasa:* ${new Date().toLocaleString()}
 
@@ -331,6 +405,7 @@ async function startXeonBotInc() {
                           `Kikundi cha WhatsApp: https://chat.whatsapp.com/FJaYH3HS1rv5pQeGOmKtbM\n` +
                           `Telegram: https://t.me/+RyHOondjwZdkZDY0\n` +
                           `YouTube: https://youtube.com/@rich_bess`,
+
                     templateButtons: [{
                         index: 1, 
                         urlButton: {
