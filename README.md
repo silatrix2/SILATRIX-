@@ -1,207 +1,167 @@
-# 👑 SILATRIX MD v2.0
-
-Hii ni boti ya WhatsApp iliyojengwa kwa kutumia maktaba ya **Baileys** kwa usimamizi wa makundi, na huduma mbalimbali za kibenki. Imebuniwa kuwapa wasimamizi udhibiti kamili na mtindo wa hali ya juu wakati wa kusimamia makundi ya WhatsApp.
-
-<div align="center"> 
-  <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff33cc&center=true&width=910&height=100&lines=SILATRIX+MD+V2;Multi+Device+WhatsApp+Bot;IMETENGENEZWA+Na+SILA+TECH" alt="Typing SVG" />
-  </a> 
-</div> 
-
-<div align="center"> 
-  <img src="https://github.com/silatrix2/silatrix-bot/blob/main/assets/v1.jpg" alt="Silatrix MD" height="300"> 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=speech&height=200&color=gradient&text=WE'LL%20COME%20🥳&animation=blinking&fontAlign=36&fontAlignY=36&descAlign=62&reversal=false&textBg=false" width="100%">
 </div>
 
----
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=8A2BE2&center=true&width=1150&height=200&lines=PLEASE+FORK+STAR+BOT+REPO" alt="Typing SVG" /></a>
+  </div>
+<a><img src='https://ik.imagekit.io/mrshaban/Picsart_25-02-01_22-47-44-239.jpg'/></a>
 
-## �️ Hatua za Kuweka Boti
-
-### Hatua ya 1: Weka Mfumo Wako
-
-Pakua au nakili mfumo wote wa SILATRIX MD kwenye kompyuta yako:
-
-```bash
-git clone https://github.com/silatrix2/silatrix-bot.git
-cd silatrix-bot
-npm install
-
-
-Hatua ya 2: Badilisha Mipangilio
-
-Badilisha faili ya settings.js na weka namba yako:
-
-```javascript
-ownerNumber: '255789661031', // Weka namba yako hapa
-```
-
-Hatua ya 3: Tengeneza Session
-
-Anzisha boti kwa kutumia:
-
-```bash
-node index.js
-```
-
-Piga msimbo wa QR kwenye WhatsApp yako kwa kutumia:
-
-· Mipangilio > Vifaa Vilivyounganishwa > Unganisha Kifaa
-
----
-
-🌐 Ku-Deploy Kwenye Mazingira Mbalimbali
-
-A. Heroku Deployment
-
-https://www.herokucdn.com/deploy/button.svg
-
-B. Render Deployment
-
-https://render.com/images/deploy-to-render-button.svg
-
-C. Railway Deployment
-
-https://railway.app/button.svg
-
-D. Replit Deployment
-
-https://replit.com/badge/github/silatrix2/silatrix-bot
-
----
-
-⚡ Vipengele Vikuu
-
-· Kuwatia watu wote kwenye kundi kwa .tagall
-· Amri za wasimamizi pekee
-· Michezo ya kufurahisha kama Tic-Tac-Toe
-· Matamshi ya maandishi kwa .tts
-· Uundaji wa stika papo hapo
-· Kuzuia viungo kwenye makundi
-· Onyo na usimamizi wa wanachama kwa udhibiti wa wasimamizi
-
----
-
-📊 Bei na Huduma za Biashara
-
-SILATRIX MD inatoa huduma za biashara kwa makundi:
-
-💰 Mfumo wa Bei
-
-· Kikundi cha Kawaida: TSh 5,000 / mwezi
-· Kikundi Kikubwa: TSh 10,000 / mwezi
-· Makundi Mengi: TSh 20,000 / mwezi (hadi makundi 5)
-· Enterprise: TSh 50,000 / mwezi (huduma zote zikiwemo)
-
-🎯 Huduma Zetu
-
-· ✅ Usimamizi kamili wa kundi
-· ✅ Stika na media
-· ✅ Michezo na burudani
-· ✅ Viwango vya usalama
-· ✅ Msaada wa kila wakati
-
----
-
-🤝 Jiunge na Jumuiya Yetu
+<p align="center">
+  <a href="https://github.com/SILATRIX2"><img title="Developer" src="https://img.shields.io/badge/Author-SILATRIX%20MD-FF00FF.svg?style=big-square&logo=github" /></a>
+</p>
 
 <div align="center">
-  <a href="https://t.me/+RyHOondjwZdkZDY0">
-    <img src="https://img.shields.io/badge/Jiunge_Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=white" alt="Jiunge Telegram"/>
-  </a>
-  <a href="https://chat.whatsapp.com/FJaYH3HS1rv5pQeGOmKtbM">
-    <img src="https://img.shields.io/badge/Jiunge_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Jiunga WhatsApp"/>
-  </a>
-  <a href="https://whatsapp.com/channel/0029Vb6DeKwCHDygxt0RXh0L">
-    <img src="https://img.shields.io/badge/Kituo_cha_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Kituo cha WhatsApp"/>
-  </a>
+
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=6000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+SILATRIX+MD+BETTER+OPTION;🔥+THE+MOST+POWERFUL+WHATSAPP+BOT;💻+DEVELOPER+BY+MR+SILATRIX2;🚀+SILATRIX-MD+SOLUTIONS;🌈+FAST+⚡+SECURE+🔒+RELIABLE+✅" alt="Typing Animation">
+</h1>
+  
+[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-9ACD32?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029Vb6DeKwCHDygxt0RXh0L)
 </div>
 
----
+---------
 
-📜 Leseni
 
-Imelesenshwa chini ya MIT License.
+<p align="center">
+<a href="https://github.com/SILATRIX2/SILATRIX-"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=SILATRIX-MD&label=VIEWS&style=square&color=blue" />
+</p>
+</p> 
 
----
+<p align="center">
+  <a href="https://github.com/SILATRIX2/SILATRIX-"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v5-cyan.svg?style=for-the-badge&logo=aqua" /></a>
+</p>
 
-👑 Washiriki
 
-· SILA TECH (mwenyeji mkuu)
+***BOT FEATURE ⤵️***
 
-· Professor kwa msingi wa msimbo
-· Baileys kwa maktaba ya kuunganisha
+| Menu ⁠➜ | Status Save + Send | Group | ChatBot | Downloading | Antidelete | Ai | Viewonce | Fun | Status Reply | Status Reacts | HeartReacts | Autoreacts | Call Rejecter 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Work ➜ |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|
 
----
+  
+<a
+href="https://github.com/SILATRIX2/SILATRIX-/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+</p>
+<p align='center'>
 
-🆘 Usaidizi na Msaada
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=monospace-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+⭐+𝗥𝗘𝗣𝗢)](https://git.io/typing-svg)
+ <p align="lift">
+ <a href="https://github.com/SILATRIX2/SILATRIX-/fork"><img title="SILATRIX-MD" src="https://img.shields.io/badge/FORK-SILATRIX MD-h?color=008000&style=for-the-badge&logo=github"></a>
 
-Ikiwa unahitaji usaidizi wowote:
+ -------------
+  
+<a href='https://beezila.onrender.com' target="_blank">
+    <img src='https://img.shields.io/badge/PAIR_CODE-FF0000?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
+  </a></br>
 
-1. Tumia .help kwenye boti
-2. Tuma ujumbe kwenye kikundi chetu cha usaidizi
-3. Wasiliana nasi kwa namba: +255 789 661 031
+-------------
 
-SILATRIX MD - Huduma Bora za WhatsApp Bot!
+<a href='https://beezila.onrender.com' target="_blank">
+    <img src='https://img.shields.io/badge/PAIR_CODE-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
+  </a></br>
+
+-------------
+
+## _📡 DEPLOYMENT_
+
+<div align="center">
+  <table>
+    <tr>
+      <td><a href="https://dashboard.heroku.com/new-app?template=https://github.com/SILATRIX2/SILATRIX-" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=0000FF"/></a></td>
+      <td><a href="https://host.talkdrove.com/share-bot/47" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-A52A2A?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=SILATRIX2/SILATRIX-" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
+      <td><a href="https://shaban-free-host.zone.id/" target="_blank"><img src="https://img.shields.io/badge/Free VPS-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+  </table>
+</div>
+
+-------------
+
+**_✠ FREE DEPLOYMENT OF SILATRIX MD GITHUB WORKFLOW CODE ✠_**
 
 ```
+name: Node.js CI
 
-## 📋 Mwongozo wa Ku-Deploy Kwa Platform Zote:
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
-### 1. **Heroku Deployment**
-```bash
-# Weka Heroku CLI
-npm install -g heroku
+jobs:
+  build:
 
-# Ingia kwenye Heroku
-heroku login
+    runs-on: ubuntu-latest
 
-# Unda programu mpya
-heroku create silatrix-md-bot
+    strategy:
+      matrix:
+        node-version: [20.x]
 
-# Tuma mfumo wako
-git add .
-git commit -m "SILATRIX MD Bot"
-git push heroku main
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-# Anzisha worker
-heroku ps:scale worker=1
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
 ```
 
-2. Render Deployment
+-------
 
-· Nenda https://render.com
-· Chagya "Web Service"
-· Unganisha GitHub yako
-· Chagya repo ya SILATRIX MD
-· Weka "Build Command": npm install
-· Weka "Start Command": npm start
 
-3. Railway Deployment
+## ⚠️ _WARNING !_
 
-· Nenda https://railway.app
-· Unganisha GitHub
-· Chagya repo
-· Weka environment variables
+<div style="background-color: #000000; border-left: 5px solid #ff00ff; padding: 10px; border-radius: 0 15px 15px 0; box-shadow: 0 0 15px #ff00ff;">
+  <h3 style="color: #00ffff; font-family: 'Orbitron', sans-serif;">DISCLAIMER</h3>
+  <p style="color: #ffffff;">This bot is not affiliated with WhatsApp Inc. Use at your own risk. Misuse may result in account bans.</p>
+</div>
 
-4. Replit Deployment
+## 🗃️ _PROJECT ARCHITECTS_
+<div align="center">
+  <!-- Glowing Header -->
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+</p>
+  <a href="https://github.com/MRSHABAN45">
+    <img src="https://github-readme-stats.vercel.app/api?username=MRSHABAN45&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
+  </a>
+</div>
+<!-- Glowing Header -->
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+</p>
 
-· Fungua Replit mpya
-· Pakia mafaili yako
-· Weka "Run Command": npm start
+## 🤖 _SILATRIX-MD STATUS_
 
-🔧 Mipangilio ya Biashara:
+```diff
++ Project Status: Active
+! Version: V.5 Neon Edition
+# License: BSD 3-Clause
+```
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&height=350&color=gradient&text=FREE%20SERVES%20🛜&animation=twinkling&fontAlign=36&fontAlignY=36&descAlign=62&reversal=false&textBg=false" width="100%">
+</div>
 
-Nimekuwekea mfumo wa biashara kwenye README na mafaili yote. Watu wanaweza kukulipa kupitia:
 
-1. Airtel Money: +255 789 661 031
-2. M-Pesa: +255 789 661 031
-3. Tigo Pesa: +255 789 661 031
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=6000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=+SILATRIX+MD+QUALITY+EDITION+BY+MR+SILATRIX2;⚡+THE+FUTURE+OF+WHATSAPP+BOT+IS+HERE" alt="Footer Animation">
+</h3>
 
-📞 Mawasiliano:
 
-Kwa msaada zaidi, wasiliana nasi:
-
-· WhatsApp: +255 789 661 031
-· Telegram: @sila_tech
-· Email: silatech@example.com
-
-SILATRIX MD iko tayari kwa biashara yako! 🚀
+<h1> ℕ𝕆 𝕃𝕆𝕍𝔼 💔 ℕ𝕆 𝕊𝕋ℝ𝔼𝕊𝕊 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="45"> </h1>
