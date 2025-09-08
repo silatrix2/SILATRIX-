@@ -15,12 +15,12 @@ function formatBytes(bytes) {
 }
 
 cmd({
-  pattern: "blur",
-  alias: ["bluredit"],
+  pattern: "grey",
+  alias: ["greyedit"],
   react: '📸',
   desc: "Scan and remove bg from images",
   category: "img_edit",
-  use: ".blur [reply to image]",
+  use: ".grey [reply to image]",
   filename: __filename
 }, async (conn, message, m,  { reply, mek }) => {
   try {
@@ -64,7 +64,7 @@ cmd({
     }
 
     // Scan the image using the API
-    const apiUrl = `https://api.popcat.xyz/v2/blur?image=${encodeURIComponent(imageUrl)}`;
+    const apiUrl = `https://api.popcat.xyz/v2/greyscale?image=${encodeURIComponent(imageUrl)}`;
     const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 
     if (!response || !response.data) {
@@ -75,11 +75,11 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `> *Powdered by sir bravin*`
+      caption: `> *Powered by sir bravin*`
     });
 
   } catch (error) {
-    console.error("Blur Error:", error);
+    console.error("Grey Error:", error);
     reply(`An error occurred: ${error.response?.data?.message || error.message || "Unknown error"}`);
   }
 });
