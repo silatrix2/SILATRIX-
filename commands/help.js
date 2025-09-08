@@ -5,7 +5,7 @@ const os = require('os');
 const moment = require('moment-timezone');
 
 async function helpCommand(sock, chatId, message) {
-   global.whatsappChannelLink = "https://whatsapp.com/channel/0029Vb6DeKwCHDygxt0RXh0L";
+    global.whatsappChannelLink = "https://whatsapp.com/channel/0029Vb6DeKwCHDygxt0RXh0L";
     // Calculate system stats
     const uptime = moment.duration(process.uptime(), 'seconds').humanize();
     const memoryUsage = process.memoryUsage().rss;
@@ -26,190 +26,209 @@ async function helpCommand(sock, chatId, message) {
     const memoryInfo = ` ${formatMemory(memoryUsage)}/${formatMemory(totalMemory)} (${freePercentage}% free, ${usedPercentage}% used)`;
 
     const helpMessage = `
-✦⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅✦
-           ✦ SILATRIX 𝐌𝐃 ✦
-⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
-✦ 𝖁𝖊𝖗𝖘𝖎𝖔𝖓: ${settings.version || '1.0'} 
-✦ 𝕯𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗: ${settings.botOwner || 'C.O Tech'}
-✦ 𝕮𝖔𝖒𝖒𝖆𝖓𝖉𝖘: ${totalCommands}
-✦ 𝖀𝖕𝖙𝖎𝖒𝖊: ${uptime}
-✦ 𝕾𝖕𝖊𝖊𝖉: ${avgSpeed}
-✦ 𝕿𝖎𝖒𝖊: ${currentTime} (${currentDate})
-✦ 𝕯𝖆𝖞: ${day}
-✦ 𝕻𝖑𝖆𝖙𝖋𝖔𝖗𝖒: ${platform}
-✦ 𝕸𝖊𝖒𝖔𝖗𝖞: ${memoryInfo}
-✦ 𝖀𝖘𝖊𝖗: ${userInfo}
-✦ 𝕻𝖗𝖊𝖋𝖎𝖝: ${settings.prefix || '.'}
-⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+╔══════════════════════════════════════════════════╗
+║  ███████╗██╗██╗     ███████╗████████╗██████╗ ██╗║
+║  ██╔════╝██║██║     ██╔════╝╚══██╔══╝██╔══██╗██║║
+║  ███████╗██║██║     █████╗     ██║   ██████╔╝██║║
+║  ╚════██║██║██║     ██╔══╝     ██║   ██╔══██╗██║║
+║  ███████║██║███████╗███████╗   ██║   ██║  ██║██║║
+║  ╚══════╝╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝║
+╠══════════════════════════════════════════════════╣
+║             👑 SILATRIX MD ROYAL COURT 👑        ║
+╚══════════════════════════════════════════════════╝
 
-╔════════════════════════════════╗
-  🧠 𝕀𝕟𝕥𝕖𝕝𝕝𝕚𝕘𝕖𝕟𝕔𝕖 (4)
-╚════════════════════════════════╝
-🔮 .gpt 5 - Royal advisor
-🔮 .gemini - Advanced counsel
-🔮 .imagine - Royal visions
-🔮 .flux - Advanced visions
- 
+╔══════════════════════════════════════════════════╗
+║                  ROYAL STATISTICS                ║
+╠══════════════════════════════════════════════════╣
+║  👑 Version: ${settings.version || '1.0'} 
+║  🛠️ Developer: ${settings.botOwner || 'C.O Tech'}
+║  ⚡ Commands: ${totalCommands}
+║  ⏳ Uptime: ${uptime}
+║  🚀 Speed: ${avgSpeed}
+║  🕒 Time: ${currentTime} (${currentDate})
+║  📅 Day: ${day}
+║  💻 Platform: ${platform}
+║  💾 Memory: ${memoryInfo}
+║  👤 User: ${userInfo}
+║  🎯 Prefix: ${settings.prefix || '.'}
+╚══════════════════════════════════════════════════╝
 
-╔════════════════════════════════╗
-  🏰 ℂ𝕠𝕦𝕣𝕥 𝔼𝕤𝕤𝕖𝕟𝕥𝕚𝕒𝕝𝕤 (18)
-╚════════════════════════════════╝
-✨ .help/.menu - Royal command list
-✨ .ping - Check royal responsiveness
-✨ .alive - Verify royal presence
-✨ .tts <text> - Royal speech
-✨ .owner - Summon the royal developer
-✨ .joke - Royal humor
-✨ .quote - Royal wisdom
-✨ .fact - Royal knowledge
-✨ .weather <city> - Royal forecast
-✨ .news - Royal updates
-✨ .attp <text> - Animated royal text
-✨ .lyrics <song> - Royal ballads
-✨ .groupinfo - Court details
-✨ .admins - Royal advisors
-✨ .vv - Royal voice effects
-✨ .trt <text> - Royal translation
-✨ .ss <link> - Royal screenshot
-✨ .jid - Royal identification
-✨ .autosend - for stealing peeps whatsapp post
+╔══════════════════════════════════════════════════╗
+║                  🧠 ROYAL INTELLIGENCE           ║
+╠══════════════════════════════════════════════════╣
+║  🔮 .gpt [query] - Consult the royal advisor
+║  🔮 .gemini [query] - Advanced counsel
+║  🔮 .imagine [prompt] - Create royal visions
+║  🔮 .flux [prompt] - Advanced AI visions
+╚══════════════════════════════════════════════════╝
 
-╔════════════════════════════════╗
-  👑 ℂ𝕣𝕠𝕨𝕟 𝕁𝕖𝕨𝕖𝕝𝕤 (7)
-╚════════════════════════════════╝
-💎 .mode - Change royal modes
-💎 .autostatus - Royal updates
-💎 .clearsession - Reset royal access
-💎 .antidelete - Preserve messages
-💎 .cleartmp - Clean royal chambers
-💎 .setpp - Change royal portrait
-💎 .autoreact - Royal reactions
+╔══════════════════════════════════════════════════╗
+║                  🏰 COURT ESSENTIALS             ║
+╠══════════════════════════════════════════════════╣
+║  ✨ .help/.menu - Display royal command list
+║  ✨ .ping - Check royal responsiveness
+║  ✨ .alive - Verify royal presence
+║  ✨ .tts [text] - Convert text to royal speech
+║  ✨ .owner - Summon the royal developer
+║  ✨ .joke - Royal humor
+║  ✨ .quote - Royal wisdom
+║  ✨ .fact - Royal knowledge
+║  ✨ .weather [city] - Royal forecast
+║  ✨ .news - Royal updates
+║  ✨ .attp [text] - Animated royal text
+║  ✨ .lyrics [song] - Royal ballads
+║  ✨ .groupinfo - Court details
+║  ✨ .admins - Royal advisors list
+║  ✨ .vv - Royal voice effects
+║  ✨ .trt [text] - Royal translation
+║  ✨ .ss [link] - Royal screenshot
+║  ✨ .jid - Royal identification
+║  ✨ .autosend - Steal WhatsApp posts
+╚══════════════════════════════════════════════════╝
 
-╔════════════════════════════════╗
-  ⚜️ ℝ𝕠𝕪𝕒𝕝 𝔸𝕕𝕞𝕚𝕟 (18)
-╚════════════════════════════════╝
-🗡️ .ban @user - Banish from court
-🗡️ .promote @user - Grant nobility
-🗡️ .demote @user - Revoke nobility
-🗡️ .mute <mins> - Silence offender
-🗡️ .unmute - Restore voice
-🗡️ .delete - Purge messages
-🗡️ .kick @user - Remove from court
-🗡️ .warnings - View offenses
-🗡️ .warn @user - Issue royal warning
-🗡️ .antilink - Protect kingdom
-🗡️ .antibadword - Filter vulgarity
-🗡️ .clear - Cleanse chat
-🗡️ .tag - Royal summons
-🗡️ .tagall - Summon all
-🗡️ .chatbot - Royal advisor
-🗡️ .resetlink - New royal invitation
-🗡️ .welcome - Royal greetings
-🗡️ .goodbye - Royal farewells
+╔══════════════════════════════════════════════════╗
+║                  👑 CROWN JEWELS                 ║
+╠══════════════════════════════════════════════════╣
+║  💎 .mode - Change royal modes
+║  💎 .autostatus - Automatic royal updates
+║  💎 .clearsession - Reset royal access
+║  💎 .antidelete - Preserve royal messages
+║  💎 .cleartmp - Clean royal chambers
+║  💎 .setpp - Change royal portrait
+║  💎 .autoreact - Automatic royal reactions
+╚══════════════════════════════════════════════════╝
 
-╔════════════════════════════════╗
-  🎨 𝔸𝕣𝕥𝕚𝕤𝕥𝕣𝕪 (7)
-╚════════════════════════════════╝
-🎭 .blur - Soften images
-🎭 .simage - Sticker to image
-🎭 .sticker - Create royal seals
-🎭 .tgsticker - Telegram seals
-🎭 .meme - Royal humor
-🎭 .take - Claim stickers
-🎭 .emojimix - Combine royal symbols
+╔══════════════════════════════════════════════════╗
+║                  ⚜️ ROYAL ADMINISTRATION         ║
+╠══════════════════════════════════════════════════╣
+║  🗡️ .ban @user - Banish from court
+║  🗡️ .promote @user - Grant nobility
+║  🗡️ .demote @user - Revoke nobility
+║  🗡️ .mute [mins] - Silence offender
+║  🗡️ .unmute - Restore voice
+║  🗡️ .delete - Purge messages
+║  🗡️ .kick @user - Remove from court
+║  🗡️ .warnings - View offenses
+║  🗡️ .warn @user - Issue royal warning
+║  🗡️ .antilink - Protect kingdom
+║  🗡️ .antibadword - Filter vulgarity
+║  🗡️ .clear - Cleanse chat
+║  🗡️ .tag - Royal summons
+║  🗡️ .tagall - Summon all subjects
+║  🗡️ .chatbot - Royal advisor activation
+║  🗡️ .resetlink - New royal invitation
+║  🗡️ .welcome - Royal greetings setup
+║  🗡️ .goodbye - Royal farewells setup
+╚══════════════════════════════════════════════════╝
 
-╔════════════════════════════════╗
-  🎮 𝔾𝕒𝕞𝕖𝕤 (7)
-╚════════════════════════════════╝
-♟️ .tictactoe - Royal strategy
-♟️ .hangman - Word puzzle
-♟️ .guess - Solve royal riddle
-♟️ .trivia - Test knowledge
-♟️ .answer - Respond to quiz
-♟️ .truth - Royal interrogation
-♟️ .dare - Royal challenge
+╔══════════════════════════════════════════════════╗
+║                  🎨 ROYAL ARTISTRY               ║
+╠══════════════════════════════════════════════════╣
+║  🎭 .blur - Soften royal images
+║  🎭 .simage - Convert sticker to image
+║  🎭 .sticker - Create royal seals
+║  🎭 .tgsticker - Create Telegram seals
+║  🎭 .meme - Royal humor creation
+║  🎭 .take - Claim stickers
+║  🎭 .emojimix - Combine royal symbols
+╚══════════════════════════════════════════════════╝
 
-╔════════════════════════════════╗
-  🎪 𝔼𝕟𝕥𝕖𝕣𝕥𝕒𝕚𝕟𝕞𝕖𝕟𝕥 (11)
-╚════════════════════════════════╝
-🎭 .compliment - Royal praise
-🎭 .insult - Playful jests
-🎭 .flirt - Courtly romance
-🎭 .shayari - Royal poetry
-🎭 .goodnight - Royal rest
-🎭 .roseday - Celebration
-🎭 .character - Royal analysis
-🎭 .wasted - GTA style
-🎭 .ship - Matchmaking
-🎭 .simp - Admiration
-🎭 .stupid - Humorous images
+╔══════════════════════════════════════════════════╗
+║                  🎮 ROYAL GAMES                  ║
+╠══════════════════════════════════════════════════╣
+║  ♟️ .tictactoe - Royal strategy game
+║  ♟️ .hangman - Word puzzle challenge
+║  ♟️ .guess - Solve royal riddle
+║  ♟️ .trivia - Test knowledge
+║  ♟️ .answer - Respond to royal quiz
+║  ♟️ .truth - Royal interrogation
+║  ♟️ .dare - Royal challenge
+╚══════════════════════════════════════════════════╝
 
-╔════════════════════════════════╗
-  ✨ 𝕋𝕖𝕩𝕥 𝔸𝕣𝕥 (18)
-╚════════════════════════════════╝
-🖋️ .metallic - Shiny text
-🖋️ .ice - Frozen text
-🖋️ .snow - Winter text
-🖋️ .impressive - Fancy text
-🖋️ .matrix - Digital text
-🖋️ .light - Glowing text
-🖋️ .neon - Bright text
-🖋️ .devil - Evil text
-🖋️ .purple - Regal text
-🖋️ .thunder - Stormy text
-🖋️ .leaves - Nature text
-🖋️ .1917 - Vintage text
-🖋️ .arena - Battle text
-🖋️ .hacker - Code text
-🖋️ .sand - Beach text
-🖋️ .blackpink - K-pop text
-🖋️ .glitch - Digital text
-🖋️ .fire - Flaming text
+╔══════════════════════════════════════════════════╗
+║                  🎪 ROYAL ENTERTAINMENT          ║
+╠══════════════════════════════════════════════════╣
+║  🎭 .compliment - Royal praise
+║  🎭 .insult - Playful jests
+║  🎭 .flirt - Courtly romance
+║  🎭 .shayari - Royal poetry
+║  🎭 .goodnight - Royal rest wishes
+║  🎭 .roseday - Celebration messages
+║  🎭 .character - Royal personality analysis
+║  🎭 .wasted - GTA-style images
+║  🎭 .ship - Royal matchmaking
+║  🎭 .simp - Admiration expressions
+║  🎭 .stupid - Humorous image creation
+╚══════════════════════════════════════════════════╝
 
-╔════════════════════════════════╗
-  📜 𝔸𝕣𝕔𝕙𝕚𝕧𝕖𝕤 (7)
-╚════════════════════════════════╝
-🎵 .play - Stream music
-🎵 .song - Download audio
-🎵 .instagram - Save posts
-🎵 .facebook - Save content
-🎵 .tiktok - Download videos
-🎵 .video - Search videos
-🎵 .ytmp4 - YouTube download
+╔══════════════════════════════════════════════════╗
+║                  ✨ ROYAL TEXT ART               ║
+╠══════════════════════════════════════════════════╣
+║  🖋️ .metallic - Shiny royal text
+║  🖋️ .ice - Frozen text style
+║  🖋️ .snow - Winter-themed text
+║  🖋️ .impressive - Fancy text design
+║  🖋️ .matrix - Digital text effect
+║  🖋️ .light - Glowing text creation
+║  🖋️ .neon - Bright text style
+║  🖋️ .devil - Evil-themed text
+║  🖋️ .purple - Regal text color
+║  🖋️ .thunder - Stormy text effect
+║  🖋️ .leaves - Nature-inspired text
+║  🖋️ .1917 - Vintage text style
+║  🖋️ .arena - Battle-themed text
+║  🖋️ .hacker - Code-style text
+║  🖋️ .sand - Beach-themed text
+║  🖋️ .blackpink - K-pop style text
+║  🖋️ .glitch - Digital distortion text
+║  🖋️ .fire - Flaming text effect
+╚══════════════════════════════════════════════════╝
 
-╔════════════════════════════════╗
-  💻 ℂ𝕠𝕕𝕖 (5)
-╚════════════════════════════════╝
-👨‍💻 .git - Repository
-👨‍💻 .github - Project
-👨‍💻 .repo - Links
+╔══════════════════════════════════════════════════╗
+║                  📜 ROYAL ARCHIVES               ║
+╠══════════════════════════════════════════════════╣
+║  🎵 .play [song] - Stream royal music
+║  🎵 .song [title] - Download audio
+║  🎵 .instagram [url] - Save Instagram posts
+║  🎵 .facebook [url] - Save Facebook content
+║  🎵 .tiktok [url] - Download TikTok videos
+║  🎵 .video [query] - Search for videos
+║  🎵 .ytmp4 [url] - Download YouTube videos
+╚══════════════════════════════════════════════════╝
 
-✦⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅✦
-       *✦ Long may silatrix reign! ✦*
-✦⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅✦
+╔══════════════════════════════════════════════════╗
+║                  💻 ROYAL CODE                   ║
+╠══════════════════════════════════════════════════╣
+║  👨‍💻 .git - Repository information
+║  👨‍💻 .github - Project details
+║  👨‍💻 .repo - Royal bot links
+╚══════════════════════════════════════════════════╝
 
-if you want to deploy the bot  .repo or .github
- `;
+╔══════════════════════════════════════════════════╗
+║      *✦ LONG MAY SILATRIX REIGN! ✦*             ║
+╚══════════════════════════════════════════════════╝
 
-  try {
+Use ${settings.prefix || '.'}repo or ${settings.prefix || '.'}github to deploy the royal bot
+`;
+
+    try {
         const imagePath = path.join(__dirname, '../assets/v1.jpg');
         const buttons = [
             {
                 urlButton: {
-                    displayText: "👑 Join Channel",
+                    displayText: "👑 Join Royal Channel",
                     url: global.whatsappChannelLink
                 }
             },
             {
                 urlButton: {
-                    displayText: "💬 WhatsApp Group",
-                    url: global.whatsappGroupLink
+                    displayText: "💬 Royal Court (Group)",
+                    url: global.whatsappGroupLink || "https://chat.whatsapp.com/example"
                 }
             },
-           
             {
                 quickReplyButton: {
-                    displayText: "⚔️ Support",
+                    displayText: "⚔️ Royal Support",
                     id: "!support"
                 }
             }
