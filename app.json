@@ -1,7 +1,7 @@
 {
-  "name": "ANDBAD-MD-V2",
+  "name": "SILATRIX-MD",
   "description": "Javascript WhatsApp bot made by 𝚫𝚴𝐃𝚩𝚫𝐃",
-  "keywords": ["ANDBAD-MD-V2"],
+  "keywords": ["SILATRIX-MD"],
   "success_url": "/",
   "env": {
     "SESSION_ID": {
@@ -27,7 +27,7 @@
     "WELCOME": {
       "description": "Make it true if you want goodbye and welcome message in groups.",
       "required": true,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
@@ -52,7 +52,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Auto view status",
       "required": true,
-      "value": "Your status has been viewed successfully by ANDREW-TZ"
+      "value": "Your status has been viewed successfully by SILATRIX-MD."
     },
     "AUTO_STATUS_REPLY": {
       "description": "Status reply function",
