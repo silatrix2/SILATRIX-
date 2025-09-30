@@ -1,14 +1,14 @@
 {
-  "name": "SILATRIX-MD",
-  "description": "Javascript WhatsApp bot made by 𝐌𝐑 𝐒ILATRIX",
-  "logo": "https://ik.imagekit.io/mrshaban/Picsart_25-02-01_22-47-44-239.jpg",
-  "keywords": ["SILATRIX-MD"],
+  "name": "VERONICA-AI",
+  "description": "Javascript WhatsApp bot made by Terri",
+  "logo": "https://files.catbox.moe/mn9fgn.jpg",
+  "keywords": ["VERONICA"],
   "success_url": "/",
 
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "PUT LINK SENT TO YOU [http://session.xibs.space/.......]",
       "required": true,
       "value": ""
     },  
@@ -16,25 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "SILATRIX-MD︎"
-    },
-    
-    "OWNER_NAME": {
-      "description": "Type Bot Owner Name.",
-      "required": false,
-      "value": "MR-SILATRIX"
-    }, 
-    
-    "OWNER_NUMBER": {
-      "description": "put the owner number for bot.",
-      "required": false,
-      "value": "255612491554"
-    }, 
-    
-    "MENU_IMAGE_URL": {
-      "description": "add url for mention reply and menu if want.",
-      "required": true,
-      "value": "https://ik.imagekit.io/mrshaban/Picsart_25-02-01_22-47-44-239.jpg"
+      "value": "VERONICA-AI"
     }, 
       
     "PREFIX": {
@@ -46,30 +28,31 @@
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
-      "value": "public"   
+      "value": "public"
+      
+    },
+
+     "ANTI_DELETE": {
+      "description": "set true for show deleted messages.",
+      "required": false,
+      "value": "true"  
     },
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
-      "required": true,
+      "required": false,
       "value": "false"  
-    },   
-  
-    "AUTO_VOICE": {
-      "description": "Make it true if want automatic voice reply .",
-      "required": true,
-      "value": "false"
-    }, 
-
+    },    
+   
     "AUTO_REPLY": {
       "description": "Make it true if you want automatic reply.",
-      "required": true,
+      "required": false,
       "value": "false"
     }, 
 
     "AUTO_STICKER": {
       "description": "Make it true if you want automatic sticker.",
-      "required": true,
+      "required": false,
       "value": "false"
     }, 
 
@@ -95,75 +78,88 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW SILATRIX-Mᴅ 𓅓*"
+      "value": "*SEEN YOUR STATUS BY VERONICA-AI 🖤*"
    
      }, 
+    
+    "OWNER_NAME": {
+      "description": "Type Bot Owner Name.",
+      "required": false,
+      "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
+}, 
+
+    "OWNER_NUMBER": {
+      "description": "put the owner number for bot.",
+      "required": false,
+      "value": "256754550399"
+
+    }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "SILATRIX-MD V5"
+      "value": "VERONICA-AI"
 
-     },
-     
-    "DELETE_LINK": {
+      }, 
+
+    "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
-      "value": "false"
-    }, 
-    
-    "ANTI_LINK": {
-      "description": "Make it true if you want bot auto kick member remove group link.",
-      "required": true,
-      "value": "false"
+      "value": "true"
+      
     },
     
-    "ADMIN_EVENTS": {
-      "description": "make it true if want know who promote or demote a member .",
-      "required": true,
+    "ANTI_BAD": {
+      "description": "Make it true if you want bot auto delete bad words.",
+      "required": false,
       "value": "false"
     },
 
-    "WELCOME": {
-      "description": "make it true if want goodbye and welcome message in groups.",
-      "required": true,
+   "MENTION_REPLY": {
+      "description": "make it true if want mention reply if someone menetion you.",
+      "required": false,
       "value": "false"
     },
-     
-    "ANTI_CALL": {
-      "description": "Make it true if you want bot auto call rejected.",
-      "required": true,
-      "value": "false"
-      
-    }, 
     
-    "ANTI_BAD_WORD": {
-      "description": "Make it true if you want bot auto delete bad words.",
-      "required": true,
+    "MENU_IMAGE_URL": {
+      "description": "add url for mention reply and menu if want.",
+      "required": false,
+      "value": "https://files.catbox.moe/mn9fgn.jpg"
+    },
+    
+     "DESCRIPTION": {
+      "description": "add caption for menu and other",
+      "required": false,
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇʀʀɪ*"
+    },
+
+      "DELETE_LINKS": {
+      "description": "remove links from group automatically without removing member",
+      "required": false,
       "value": "false"
-    }, 
+    },
     
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
-      "required": true,
+      "required": false,
       "value": "false"
     },
 
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
-      "required": true,
+      "required": false,
       "value": "false"
     },
 
     "AUTO_REACT": {
       "description": "Make it true if you want react on every message.",
-      "required": true,
+      "required": false,
       "value": "false"
     },
     
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
-      "required": true,
+      "required": false,
       "value": "false"
       
     }, 
@@ -176,19 +172,31 @@
     
     "ANTI_DEL_PATH": {
       "description": "change it to -same- if you want to resend deleted message in same chat othwise inbox",
-      "required": true,
+      "required": false,
       "value": "inbox"
+    }, 
+
+    "ADMIN_ACTION": {
+      "description": "make it true if want know who promote or demote a member .",
+      "required": false,
+      "value": "false"
     },
 
-    "ANTI_DELETE": {
-      "description": "set true for show deleted messages.",
-      "required": true,
-      "value": "false"  
+    "WELCOME": {
+      "description": "make it true if want welcome message in groups.",
+      "required": false,
+      "value": "false"
+    },
+
+    "GOODBYE": {
+      "description": "make it true if want goodbye message in groups.",
+      "required": false,
+      "value": "false"
     },
 
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
-      "required": true,
+      "required": false,
       "value": "false"
     }
 
@@ -201,3 +209,4 @@
      ],
   "stack": "heroku-24"
 }
+  
